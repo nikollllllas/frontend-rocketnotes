@@ -5,9 +5,9 @@ import { Brand, Container, Content, Menu, NewNote, Search } from './styles.js'
 import { api } from '../../services/api.js'
 import { Note } from '../../components/Note'
 import { Input } from '../../components/Input'
-import { Header } from '../../components/header/index.jsx'
-import { Section } from '../../components/section/index.jsx'
-import { ButtonText } from '../../components/ButtonText/index.jsx'
+import { Header } from '../../components/Header' 
+import { Section } from '../../components/Section'
+import { ButtonText } from '../../components/ButtonText'
 
 export function Home() {
   const [tags, setTags] = useState([])
